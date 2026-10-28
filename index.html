@@ -142,6 +142,10 @@ form.q .btn{justify-content:center}
 .frame{position:relative;aspect-ratio:4/5;background:var(--ink);box-shadow:16px 16px 0 var(--gold)}
 .frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .5s}
 .frame img.on{opacity:1}
+.frame img[src*="commercial"]{object-position:30% 50%}
+.frame img[src*="post-construction"]{object-position:62% 50%}
+.tile img[src*="post-construction"]{object-position:62% 50%}
+.svc-body img.m[src*="commercial"]{object-position:30% 50%}
 .frame .tag{position:absolute;left:0;bottom:0;background:var(--paper);padding:10px 18px;font-family:var(--serif);font-style:italic;font-weight:600;font-size:1.1rem}
 .svc-list{list-style:none;border-top:2px solid var(--ink)}
 .svc-list li{border-bottom:1px solid var(--line)}
@@ -422,7 +426,7 @@ footer{background:#06131d;color:#b6c5d1;padding:80px 0 0}
         <div class="t"><h3>Move In Move Out Cleaning</h3><p>A professional clean can help you secure your damage deposit, sell your property, and make you feel at home in your new space.</p></div>
       </a>
       <a class="tile rv" href="#services" data-go="2">
-        <img src="assets/post-construction.jpg" alt="Cleaner in protective gear wiping a counter" loading="lazy">
+        <img src="assets/post-construction.jpg" alt="Gloved hand wiping dust from a window sill after construction" loading="lazy">
         <span class="no">02</span>
         <div class="t"><h3>Post Construction Cleaning</h3><p>Dust, debris and mess removed, leaving the pristine space you designed.</p></div>
       </a>
@@ -473,14 +477,14 @@ footer{background:#06131d;color:#b6c5d1;padding:80px 0 0}
         <div class="frame" id="frame">
           <img class="on" src="assets/stove.jpg" alt="Cleaning a gas stove">
           <img src="assets/move-in-cabinet.jpg" alt="Wiping a white cabinet door">
-          <img src="assets/post-construction.jpg" alt="Wiping a countertop in protective gear">
+          <img src="assets/post-construction.jpg" alt="Gloved hand wiping dust from a window sill">
           <img src="assets/deep-clean.jpg" alt="Gloved hands scrubbing">
-          <img src="assets/tile-glove.jpg" alt="Yellow glove wiping white tiles">
+          <img src="assets/carpet-cleaning.jpg" alt="Cleaner in blue gloves using a carpet extractor">
           <img src="assets/counter-glove.jpg" alt="Yellow glove wiping a bathroom counter">
           <img src="assets/kitchen-cabinets.jpg" alt="Wiping kitchen cabinets">
           <img src="assets/caddy.jpg" alt="Cleaner holding a caddy of supplies">
           <img src="assets/shower-sponge.jpg" alt="Yellow glove with a sponge in a shower">
-          <img src="assets/glass-table.jpg" alt="Gloved hands wiping a glass table">
+          <img src="assets/commercial-office.jpg" alt="Cleaner wiping a boardroom table in an office">
           <span class="tag" id="frameTag">Move Out Cleaning</span>
         </div>
       </div>
@@ -494,7 +498,7 @@ footer{background:#06131d;color:#b6c5d1;padding:80px 0 0}
         <li><button aria-expanded="false"><span class="n">04</span><h3>Deep Cleaning</h3><span class="pl"></span></button>
           <div class="svc-body"><div><img class="m" src="assets/deep-clean.jpg" alt="" loading="lazy"><p>One-time deep cleans for those who want more than the day-to-day mopping, vacuuming, and dusting. Perfect for busy schedules, with regular home sanitation available so your home never loses its luster.</p></div></div></li>
         <li><button aria-expanded="false"><span class="n">05</span><h3>Carpet Cleaning</h3><span class="pl"></span></button>
-          <div class="svc-body"><div><img class="m" src="assets/tile-glove.jpg" alt="" loading="lazy"><p>Professional residential and commercial carpet and area rug cleaning using state-of-the-art equipment and eco-friendly products to remove deep-seated dirt, stains, and allergens.</p></div></div></li>
+          <div class="svc-body"><div><img class="m" src="assets/carpet-cleaning.jpg" alt="" loading="lazy"><p>Professional residential and commercial carpet and area rug cleaning using state-of-the-art equipment and eco-friendly products to remove deep-seated dirt, stains, and allergens.</p></div></div></li>
         <li><button aria-expanded="false"><span class="n">06</span><h3>House Cleaning</h3><span class="pl"></span></button>
           <div class="svc-body"><div><img class="m" src="assets/counter-glove.jpg" alt="" loading="lazy"><p>From basic daily upkeep to deep cleaning down to the finest detail. Save your time and effort, bring in a helping hand from time to time or make it a regular thing, it is up to you.</p></div></div></li>
         <li><button aria-expanded="false"><span class="n">07</span><h3>Apartment Cleaning</h3><span class="pl"></span></button>
@@ -504,7 +508,7 @@ footer{background:#06131d;color:#b6c5d1;padding:80px 0 0}
         <li><button aria-expanded="false"><span class="n">09</span><h3>Residential Cleaning</h3><span class="pl"></span></button>
           <div class="svc-body"><div><img class="m" src="assets/shower-sponge.jpg" alt="" loading="lazy"><p>Cleaning a home is about more than making it look good. It helps keep the people living in it safe, healthy, and comfortable, and we deliver on our promise of a flawless clean every time.</p></div></div></li>
         <li><button aria-expanded="false"><span class="n">10</span><h3>Commercial Cleaning</h3><span class="pl"></span></button>
-          <div class="svc-body"><div><img class="m" src="assets/glass-table.jpg" alt="" loading="lazy"><p>Office cleaning, retail cleaning and janitorial services: daily upkeep of communal areas, deep bathroom and kitchen cleaning, replenishment of sanitary materials, desks and shelves, floor vacuuming, washing and polishing, plus sanitization and disinfection.</p></div></div></li>
+          <div class="svc-body"><div><img class="m" src="assets/commercial-office.jpg" alt="" loading="lazy"><p>Office cleaning, retail cleaning and janitorial services: daily upkeep of communal areas, deep bathroom and kitchen cleaning, replenishment of sanitary materials, desks and shelves, floor vacuuming, washing and polishing, plus sanitization and disinfection.</p></div></div></li>
       </ul>
     </div>
   </div>
